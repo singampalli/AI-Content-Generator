@@ -1,0 +1,9 @@
+{
+  "templates": [
+    {
+      "id": "b58b",
+      "name": "LinkedIn Post Content Generator",
+      "body": "You’re an expert tech copywriter. Based on the following structure, craft a {tone} {content_type} for {audience} about {topic}."
+    }
+  ]
+}
