@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+.bg-gradient {
+  background: linear-gradient(
+    to right,
+    #198754,
+    #28a745
+  ) !important; /* Bootstrap success greens */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.aiOutput {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.width95 {
+  width: 95%;
+}
+.width3 {
+  width: 3%;
+}
+.copyicon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.copy-wrapper {
+  display: inline-block;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.copy-feedback {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateY(-100%);
+  color: green;
+  font-size: 0.85rem;
+  font-weight: 600;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.icons-nav-bar {
+  color: #fff;
+  transition: color 0.2s;
+  font-weight: bold;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icons-nav-bar:hover {
+  color: #198754;
 }
