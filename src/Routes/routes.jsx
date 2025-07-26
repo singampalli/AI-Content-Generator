@@ -1,9 +1,9 @@
-// routes.tsx
+import { PromptInterface } from '../Chat/PromptInterface';
 import HomePage from '../Home/HomePage';
-import TemplateCreator from '../TemplateEngine/TemplateCreator';
 import TemplateGrid from '../TemplateEngine/TemplateGrid';
 
 export const appRoutes = [
   { path: "/", element: <HomePage /> },
-  { path: "/create-template", element: <TemplateGrid /> }
+  { path: "/create-template", element: <TemplateGrid /> },
+  { path: "/AIChat", element: <PromptInterface /> }
 ];

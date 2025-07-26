@@ -6,7 +6,14 @@ export default function Navbar() {
         <Link className="btn btn-outline-light btn-sm icons-nav-bar" to="/">
           <i className="bi bi-house "></i>
         </Link>
-        <Link className="btn btn-outline-light btn-sm icons-nav-bar" to="/create-template">
+       
+        <Link className="btn btn-outline-light btn-sm icons-nav-bar" to="/AIChat">
+          <i className="bi bi-chat-dots"></i>
+        </Link>
+         <Link
+          className="btn btn-outline-light btn-sm icons-nav-bar"
+          to="/create-template"
+        >
           <i className="bi bi-gear"></i>
         </Link>
       </div>

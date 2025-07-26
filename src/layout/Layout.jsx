@@ -1,7 +1,7 @@
 import Header from "./Header";
 export default function Layout({ children }) {
   return (
-    <div className="container mt-5">
+    <div className="container">
       <Header />
       <main>{children}</main>
       <footer className="mt-4 text-center text-muted">

@@ -49,3 +49,144 @@
 .icons-nav-bar:hover {
   color: #198754;
 }
+/* MarkdownRenderer.css */
+.markdown-container {
+  font-family: "Segoe UI", Roboto, system-ui, sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+  padding: 1rem;
+  background-color: #fefefe;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  color: #222;
+}
+
+/* Headings */
+.markdown-container h1,
+.markdown-container h2,
+.markdown-container h3,
+.markdown-container h4,
+.markdown-container h5,
+.markdown-container h6 {
+  font-weight: 600;
+  margin: 0.5rem 0 0.25rem;
+  line-height: 1.25;
+  color: #111;
+}
+
+.markdown-container h1 { font-size: 1.5rem; }
+.markdown-container h2 { font-size: 1.3rem; }
+.markdown-container h3 { font-size: 1.1rem; }
+.markdown-container h4,
+.markdown-container h5,
+.markdown-container h6 { font-size: 1rem; }
+
+/* Paragraph */
+.markdown-container p {
+  margin: 0.3rem 0;
+}
+
+/* Inline code */
+.markdown-container code {
+  background: #000;
+  color: #fff;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 90%;
+}
+
+/* Code block */
+.markdown-container pre {
+  background: #000;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin: 0.5rem 0;
+  font-size: 13px;
+}
+
+/* Blockquote */
+.markdown-container blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 1rem;
+  margin: 0.5rem 0;
+  color: #555;
+  font-style: italic;
+  background-color: #f9f9f9;
+}
+
+/* Tables */
+.markdown-container table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0.5rem 0;
+  font-size: 13px;
+}
+
+.markdown-container th,
+.markdown-container td {
+  border: 1px solid #ddd;
+  padding: 0.4rem 0.6rem;
+  text-align: left;
+}
+
+.markdown-container th {
+  background-color: #f2f2f2;
+  font-weight: 600;
+}
+
+/* Images */
+.markdown-container img {
+  max-width: 100%;
+  height: auto;
+  margin: 0.5rem 0;
+  border-radius: 4px;
+}
+
+/* Links */
+.markdown-container a {
+  color: #0074cc;
+  text-decoration: none;
+}
+
+.markdown-container a:hover {
+  text-decoration: underline;
+}
+
+/* Horizontal rule */
+.markdown-container hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 1rem 0;
+}
+/* UL and OL lists */
+.markdown-container ul,
+.markdown-container ol {
+  margin: 0.25rem 0;
+  padding-left: 1.25rem; /* slight indent for bullets or numbers */
+  list-style-position: outside;
+}
+
+/* List Items */
+.markdown-container li {
+  margin: 0.1rem 0; /* tighten vertical gap between items */
+  padding: 0;
+  line-height: 1.4; /* more compact but still legible */
+}
+
+/* Nested Lists */
+.markdown-container li ul,
+.markdown-container li ol {
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+
+/* Optional: Remove bullets or customize */
+.markdown-container ul {
+  list-style-type: disc;
+}
+.markdown-container ol {
+  list-style-type: decimal;
+}
